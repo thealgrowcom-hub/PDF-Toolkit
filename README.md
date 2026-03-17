@@ -49,7 +49,7 @@ Don't settle for basic PDF readers. Download the APK directly or get it from the
 **[Download the APK directly from the Google Play Store via this link!](https://play.google.com/store/apps/details?id=com.thealgrow.pdftoolkit)**
 
 <p align="center">
-  <img src="assets/FM Radio.png" alt="FM Radio App Logo">
+  <img src="assets/pdftoolkitbanner.png" alt="PDF TOolkit Banner">
 </p>
 
 ---
