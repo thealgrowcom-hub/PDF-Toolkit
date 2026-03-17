@@ -35,13 +35,13 @@ Designed with a sleek, premium, and modern Flutter interface, PDF Toolkit is eng
 - **Dark & Light Themes 🌗**: Premium design with native dark mode support to reduce eye strain.
 
 ## 🚀 Why Choose PDF Toolkit?
-**Q: What is the best free PDF utility app for Android?**
+**Q: What is the best free PDF utility app for Android?**  
 A: PDF Toolkit stands out by offering a comprehensive, all-in-one suite of over 20+ PDF tools. Most apps charge for features like signing or watermarking, but we provide a premium, near-ad-free experience for everyone.
 
-**Q: Can I sign documents securely on my phone?**
+**Q: Can I sign documents securely on my phone?**  
 A: Absolutely! Our "Sign PDF" feature allows you to draw your signature or upload an image, ensuring you can finalize contracts and forms in seconds.
 
-**Q: Is it safe to use for sensitive documents?**
+**Q: Is it safe to use for sensitive documents?**  
 A: Yes. All processing is done locally on your device, and our "Protect PDF" feature allows you to add military-grade encryption to your files.
 
 ## 📥 Download Now
