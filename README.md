@@ -17,7 +17,7 @@
 ---
 
 ## 🌍 Your Pocket PDF Powerhouse
-Unlock professional-grade PDF tools on your phone. Whether you need to digitize receipts, combine reports, protect confidential documents, or sign contracts on the go, PDF Toolkit is the only app you'll ever need. Built for efficiency, security, and ease of use.
+Unlock professional-grade PDF tools on your phone. Best free and unlimited alternative tool of iLovePDF. Whether you need to digitize receipts, combine reports, protect confidential documents, or sign contracts on the go, PDF Toolkit is the only app you'll ever need. Built for efficiency, security, and ease of use.
 
 ## ✨ Key Features & Specifications
 Designed with a sleek, premium, and modern Flutter interface, PDF Toolkit is engineered to provide the best document handling experience.
