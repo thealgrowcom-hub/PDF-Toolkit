@@ -45,7 +45,7 @@ A: Absolutely! Our "Sign PDF" feature allows you to draw your signature or uploa
 A: Yes. All processing is done locally on your device, and our "Protect PDF" feature allows you to add military-grade encryption to your files.
 
 ## 📥 Download Now
-Don't settle for basic PDF readers. Download the APK directly or get it from the Google Play Store to unlock the full potential of your documents!
+Don't settle for basic PDF readers. Download the app directly from the Google Play Store to unlock the full potential of your documents!
 **[Download the APK directly from the Google Play Store via this link!](https://play.google.com/store/apps/details?id=com.thealgrow.pdftoolkit)**
 
 <p align="center">
