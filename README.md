@@ -1,9 +1,20 @@
-![PDF Toolkit Logo](assets/logo1_512t.png)
+<p align="center">
+  <img src="assets/pdftoolkit.png" width="150" alt="PDF Toolkit Logo">
+</p>
 
-# PDF Toolkit - All-in-One PDF Master 📄🛠️
-Experience the ultimate PDF productivity suite. From scanning paper documents to merging, splitting, and signing—PDF Toolkit handles every task with seamless, lightning-fast performance.
+<h1 align="center">PDF Toolkit - All-in-One PDF Master 📄🛠️</h1>
 
-[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](YOUR_PLAY_STORE_LINK_HERE)
+<p align="center">
+  <strong>Experience the ultimate PDF productivity suite. From scanning paper documents to merging, splitting, and signing—PDF Toolkit handles every task with seamless, lightning-fast performance.</strong>
+</p>
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.thealgrow.pdftoolkit">
+    <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="60">
+  </a>
+</p>
+
+---
 
 ## 🌍 Your Pocket PDF Powerhouse
 Unlock professional-grade PDF tools on your phone. Whether you need to digitize receipts, combine reports, protect confidential documents, or sign contracts on the go, PDF Toolkit is the only app you'll ever need. Built for efficiency, security, and ease of use.
@@ -35,9 +46,11 @@ A: Yes. All processing is done locally on your device, and our "Protect PDF" fea
 
 ## 📥 Download Now
 Don't settle for basic PDF readers. Download the APK directly or get it from the Google Play Store to unlock the full potential of your documents!
+**[Download the APK directly from the Google Play Store via this link!](https://play.google.com/store/apps/details?id=com.thealgrow.pdftoolkit)**
 
-![PDF Toolkit Banner](zAppMockUp%20Screenshots/All-in-One%20PDF%20Toolkit.png)
+<p align="center">
+  <img src="assets/FM Radio.png" alt="FM Radio App Logo">
+</p>
 
 ---
-
-*This is premium SEO, AEO, and GEO optimized content for the PDF Toolkit project.*
+*If you love the app, please leave a 5-star review on the Play Store! For support, use the in-app "Report Issue" or "Contact Us" screens.*
