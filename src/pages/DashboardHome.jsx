@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
-    Wrench,
     Image,
+    Sliders,
     AlertCircle,
-    Settings,
     ChevronRight,
     ArrowUpRight,
     Loader2
@@ -87,10 +86,8 @@ const QuickAction = ({ title, description, icon: Icon, onClick }) => (
 const DashboardHome = () => {
     const navigate = useNavigate();
     const [stats, setStats] = useState({
-        tools: 0,
         ads: 0,
-        bugs: 0,
-        settings: 12 // Mocked or just fixed
+        bugs: 0
     });
     const [loading, setLoading] = useState(true);
 
@@ -99,20 +96,16 @@ const DashboardHome = () => {
             setLoading(true);
             try {
                 const [
-                    { count: toolsCount },
                     { count: adsCount },
                     { count: bugsCount }
                 ] = await Promise.all([
-                    supabase.from('tools').select('*', { count: 'exact', head: true }),
                     supabase.from('ads').select('*', { count: 'exact', head: true }),
                     supabase.from('bugs').select('*', { count: 'exact', head: true }).neq('status', 'resolved')
                 ]);
 
                 setStats({
-                    tools: toolsCount || 0,
                     ads: adsCount || 0,
-                    bugs: bugsCount || 0,
-                    settings: 'Active'
+                    bugs: bugsCount || 0
                 });
             } catch (error) {
                 console.error("Error fetching dashboard stats:", error);
@@ -156,14 +149,6 @@ const DashboardHome = () => {
             {/* Stats Grid */}
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '24px' }}>
                 <StatCard
-                    title="Total Tools"
-                    value={stats.tools}
-                    icon={Wrench}
-                    color="#6366f1"
-                    onClick={() => navigate('/tools')}
-                    loading={loading}
-                />
-                <StatCard
                     title="Active Ads"
                     value={stats.ads}
                     icon={Image}
@@ -179,14 +164,6 @@ const DashboardHome = () => {
                     onClick={() => navigate('/bugs')}
                     loading={loading}
                 />
-                <StatCard
-                    title="App Settings"
-                    value={stats.settings}
-                    icon={Settings}
-                    color="#f59e0b"
-                    onClick={() => navigate('/settings')}
-                    loading={loading}
-                />
             </div>
 
             {/* Bottom Section */}
@@ -196,22 +173,16 @@ const DashboardHome = () => {
                     <h3 style={{ fontSize: '18px', fontWeight: 600, marginBottom: '20px', color: 'var(--text-primary)' }}>Quick Actions</h3>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                         <QuickAction
-                            title="Manage PDF Tools"
-                            description="Enable/disable or rename tools in the app"
-                            icon={Wrench}
-                            onClick={() => navigate('/tools')}
+                            title="Hamburger Menu Title"
+                            description="Configure menu title shown in app navigation drawer"
+                            icon={Sliders}
+                            onClick={() => navigate('/settings')}
                         />
                         <QuickAction
                             title="Custom Ad Posts"
                             description="Add or reorder custom promotional banners"
                             icon={Image}
                             onClick={() => navigate('/ads')}
-                        />
-                        <QuickAction
-                            title="App Configuration"
-                            description="Update Privacy Policy and T&C"
-                            icon={Settings}
-                            onClick={() => navigate('/settings')}
                         />
                     </div>
                 </div>

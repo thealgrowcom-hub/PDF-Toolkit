@@ -1,9 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-import ToolsManager from './pages/ToolsManager';
-import MenuIconsManager from './pages/MenuIconsManager';
-import SettingsEditor from './pages/SettingsEditor';
+import Settings from './pages/Settings';
 import BugsTracker from './pages/BugsTracker';
 import AdsManager from './pages/AdsManager';
 import Login from './pages/Login';
@@ -25,27 +23,11 @@ function App() {
               </main>
             </div>
           } />
-          <Route path="/tools" element={
-            <div className="app-container">
-              <Sidebar />
-              <main className="main-content">
-                <ToolsManager />
-              </main>
-            </div>
-          } />
-          <Route path="/icons" element={
-            <div className="app-container">
-              <Sidebar />
-              <main className="main-content">
-                <MenuIconsManager />
-              </main>
-            </div>
-          } />
           <Route path="/settings" element={
             <div className="app-container">
               <Sidebar />
               <main className="main-content">
-                <SettingsEditor />
+                <Settings />
               </main>
             </div>
           } />

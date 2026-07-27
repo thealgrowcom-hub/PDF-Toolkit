@@ -1,15 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { LayoutDashboard, Wrench, MenuSquare, FileText, Bug, Image, LogOut } from 'lucide-react';
+import { LayoutDashboard, Sliders, Bug, Image, LogOut } from 'lucide-react';
 import { supabase } from '../supabase';
 import './Sidebar.css';
 
 const Sidebar = () => {
     const navItems = [
         { path: '/', label: 'Dashboard', icon: LayoutDashboard },
-        { path: '/tools', label: 'Tools Manager', icon: Wrench },
-        { path: '/icons', label: 'Menu Icons', icon: MenuSquare },
-        { path: '/settings', label: 'Settings Editor', icon: FileText },
+        { path: '/settings', label: 'App Settings', icon: Sliders },
         { path: '/ads', label: 'Ad Manager', icon: Image },
         { path: '/bugs', label: 'Bugs Tracker', icon: Bug },
     ];
