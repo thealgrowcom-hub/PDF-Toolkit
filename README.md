@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/app_icon.png" width="150" alt="PDF Toolkit App Logo">
+  <img src="assets/PDF Toolkit.png" width="150" alt="PDF Toolkit App Logo">
 </p>
 
 <h1 align="center">PDF Toolkit - All-in-One PDF Editor & Scanner 📄⚡</h1>
@@ -55,7 +55,7 @@ A: Absolutely! The app comes equipped with a beautifully designed dark mode tail
 Don't miss out on complete document freedom. **[Download the APK directly from the Google Play Store via this link!](https://play.google.com/store/apps/details?id=com.thealgrow.pdftoolkit)**
 
 <p align="center">
-  <img src="assets/splash.png" alt="PDF Toolkit App Logo">
+  <img src="assets/All-in-One PDF Toolkit.png" alt="PDF Toolkit App Logo">
 </p>
 
 ---
